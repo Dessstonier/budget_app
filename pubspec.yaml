@@ -1,0 +1,16 @@
+name: budget_app
+description: A household budget tracker
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.0
+  cloud_firestore: ^4.13.0
+  firebase_messaging: ^14.7.0
+
+flutter:
+  uses-material-design: true
